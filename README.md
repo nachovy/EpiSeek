@@ -1,6 +1,6 @@
 ## EpiSeek
 ### Description
-A literature search agent system for scientific questions based on uvicorn + Vue3, incorporating [LangChain](https://github.com/langchain-ai/langchain).
+A literature search agent system for scientific questions based on Uvicorn + Vue 3, incorporating [LangChain](https://github.com/langchain-ai/langchain).
 - Accept text questions
 - Fetch relevant scientific papers
 - Provide answer
