@@ -4,8 +4,8 @@ import requests
 SEMANTIC_SCHOLAR_API_URL = "https://api.semanticscholar.org/graph/v1/paper/search"
 
 def search_papers(query, top_k=5):
-    """Search for scientific papers using Semantic Scholar API.
-    
+    """
+    Search for scientific papers using Semantic Scholar API.
     Args:
         query (str): The search query.
         top_k (int): Number of papers to return.

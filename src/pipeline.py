@@ -11,7 +11,6 @@ answer = ""
 def run_pipeline(question, top_k=5, follow_up=False):
     """
     Run the research pipeline.
-
     Args:
         question (str): The research question.
         top_k (int): Number of papers to return.

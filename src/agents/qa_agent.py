@@ -8,7 +8,8 @@ from langchain_core.runnables.history import RunnableWithMessageHistory
 session_histories = {}
 
 def get_session_history(session_id: str):
-    """Retrieve the session history for a given session ID.
+    """
+    Retrieve the session history for a given session ID.
     Args:
         session_id (str): The ID of the session.
     Returns:
@@ -19,7 +20,8 @@ def get_session_history(session_id: str):
     return session_histories[session_id]
 
 def read_pdf(pdf_path):
-    """Read the content of a PDF file.
+    """
+    Read the content of a PDF file.
     Args:
         pdf_path (str): Path to the PDF file.
     Returns:
@@ -34,7 +36,8 @@ def read_pdf(pdf_path):
         return None
 
 def chunk_text(text, max_tokens=4096):
-    """Split text into chunks based on token limit.
+    """
+    Split text into chunks based on token limit.
     Args:
         text (str): The text to chunk.
         max_tokens (int): Maximum number of tokens per chunk.
@@ -47,7 +50,8 @@ def chunk_text(text, max_tokens=4096):
     return chunks
 
 def answer_question(papers, question, session_id, model_name='gpt-4o-mini', follow_up=False):
-    """Answer a question using the vector store.
+    """
+    Answer a question using the vector store.
     Args:
         papers (List[Dict]): List of papers, each containing 'title', 'abstract', and optionally 'content'.
         question (str): The question to answer.
