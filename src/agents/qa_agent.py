@@ -62,7 +62,6 @@ def answer_question(papers, question, session_id, model_name='gpt-4o-mini', foll
         "You are an expert research assistant. You will receive multiple sections of academic papers. "
         "Do not generate an answer yet. Read and understand the context carefully. "
         "Do not make up an answer if you cannot get the information to answer this question from the papers. \n\n"
-        "{chat_history}\n"
         "User: {input}\n"
         "Assistant:"
     )
